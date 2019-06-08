@@ -1,0 +1,44 @@
+{
+  "name": "yw-cli-tool",
+  "description": "simple node cli project",
+  "version": "1.0.0",
+  "author": "Yahshemi Walters @Yahshemi",
+  "bin": {
+    "yw-cli-tool": "./bin/run"
+  },
+  "bugs": "https://github.com/Yahshemi/yw-cli-tool/issues",
+  "dependencies": {
+    "@oclif/command": "^1.5.14",
+    "@oclif/config": "^1.13.0",
+    "@oclif/plugin-help": "^2.2.0"
+  },
+  "devDependencies": {
+    "@oclif/test": "^1.2.4",
+    "chai": "^4.2.0",
+    "eslint": "^5.16.0",
+    "eslint-config-oclif": "^3.1.0",
+    "mocha": "^5.2.0",
+    "nyc": "^13.3.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "/bin",
+    "/src"
+  ],
+  "homepage": "https://github.com/Yahshemi/yw-cli-tool",
+  "keywords": [
+    "oclif"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "oclif": {
+    "bin": "yw-cli-tool"
+  },
+  "repository": "Yahshemi/yw-cli-tool",
+  "scripts": {
+    "posttest": "eslint .",
+    "test": "nyc mocha --forbid-only \"test/**/*.test.js\""
+  }
+}
