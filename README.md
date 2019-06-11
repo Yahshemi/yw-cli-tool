@@ -11,6 +11,25 @@ simple node cli project
 
 <!-- toc -->
 # Usage
+
+```
+1. Clone project
+```
+
+```
+2. npm install
+```
+
+```
+3. yw-cli-tool
+```
+
+## ENV VAR
+
+```
+APPID
+```
+
 <!-- usage -->
 # Commands
 <!-- commands -->
