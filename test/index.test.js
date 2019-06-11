@@ -6,7 +6,7 @@ describe('yw-cli-tool', () => {
   .stdout()
   .do(() => cmd.run([]))
   .it('runs hello', ctx => {
-    expect(ctx.stdout).to.contain('hello world')
+    expect(ctx.stdout).to.contain('Surfs Up')
   })
 
   test
